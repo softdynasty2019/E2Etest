@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20290" started-at="2021-05-08T15:59:37 EDT" finished-at="2021-05-08T15:59:58 EDT">
+    <groups>
+    </groups>
+    <test name="ChromeBrowser" duration-ms="7627" started-at="2021-05-08T15:59:37 EDT" finished-at="2021-05-08T15:59:45 EDT">
+      <class name="End2End.CrosBrowser.e2eTest">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:End2End.CrosBrowser.e2eTest@cd2dae5]" name="setup" is-config="true" duration-ms="6300" started-at="2021-05-08T15:59:37 EDT" finished-at="2021-05-08T15:59:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginFacebook()[pri:0, instance:End2End.CrosBrowser.e2eTest@cd2dae5]" name="LoginFacebook" duration-ms="1281" started-at="2021-05-08T15:59:44 EDT" finished-at="2021-05-08T15:59:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFacebook -->
+      </class> <!-- End2End.CrosBrowser.e2eTest -->
+    </test> <!-- ChromeBrowser -->
+    <test name="FirefoxBrowser" duration-ms="12644" started-at="2021-05-08T15:59:45 EDT" finished-at="2021-05-08T15:59:58 EDT">
+      <class name="End2End.CrosBrowser.e2eTest">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:End2End.CrosBrowser.e2eTest@48503868]" name="setup" is-config="true" duration-ms="11317" started-at="2021-05-08T15:59:45 EDT" finished-at="2021-05-08T15:59:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginFacebook()[pri:0, instance:End2End.CrosBrowser.e2eTest@48503868]" name="LoginFacebook" duration-ms="1326" started-at="2021-05-08T15:59:56 EDT" finished-at="2021-05-08T15:59:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFacebook -->
+      </class> <!-- End2End.CrosBrowser.e2eTest -->
+    </test> <!-- FirefoxBrowser -->
+  </suite> <!-- Suite -->
+</testng-results>
